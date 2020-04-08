@@ -1,0 +1,35 @@
+export default {
+    name:"CircleCollideTest",
+    components:[
+        {
+            type:"CircleComponent",
+            values:[
+                {
+                    key:"radius",
+                    value:"50"
+                },
+                {
+                    key:"fill",
+                    value:"White"
+                },
+                {
+                    key:"stroke",
+                    value:"Black"
+                }
+            ]
+        },
+        {
+            type:"CircleCollider",
+            values:[
+                {
+                    key:"radius",
+                    value:"50"
+                }
+            ]
+        },
+        {
+            type:"TestBehavior"
+        }
+    ]
+
+}
